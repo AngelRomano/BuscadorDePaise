@@ -1,0 +1,76 @@
+
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #faf3e0; 
+    color: #4e4e4e; 
+  }
+  
+  .barra-busqueda input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #f7c5a4; 
+    border-radius: 5px;
+    background-color: #fff3e0; 
+    color: #4e4e4e; 
+  }
+  
+  .lista-paises {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+
+  .pais {
+    border: 1px solid #f7c5a4;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    background-color: #fff7e6; 
+  }
+  
+  .pais img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  
+  .historial-busqueda {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ffecd1; 
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .historial-busqueda ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .historial-busqueda li {
+    background: #ffe0b2; 
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #4e4e4e; 
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  .historial-busqueda li:hover {
+    transform: scale(1.05); 
+    background-color: #ffcc80; 
+  }
+  
